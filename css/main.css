@@ -4,6 +4,7 @@
     user-select: text;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
+    overflow-x: hidden;
 }
 
 li {
