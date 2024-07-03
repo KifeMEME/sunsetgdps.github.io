@@ -29,6 +29,7 @@ header {
     left: 0;
     z-index: 20;
     border: 2px #313131 solid;
+    overflow-x: hidden;
     opacity: 95%;
 }
 
@@ -113,6 +114,11 @@ header:before {
     overflow: hidden;
     object-fit: cover;
     z-index: -1;
+}
+
+.fullscreen {
+    max-height: 100%;
+    max-width: 100%;
 }
 
 .prev {
