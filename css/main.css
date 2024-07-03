@@ -4,7 +4,6 @@
     user-select: text;
     font-family: Arial, Helvetica, sans-serif;
     color: #ffffff;
-    overflow-x: hidden;
 }
 
 li {
@@ -111,6 +110,8 @@ header:before {
     left: 0;
     height: 100%;
     filter: blur(5px);
+    overflow: hidden;
+    object-fit: cover;
     z-index: -1;
 }
 
