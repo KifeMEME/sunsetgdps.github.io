@@ -718,7 +718,21 @@ footer {
         font-size: 12px;
     }
 
+    .dwnl-bot {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .dwnl-btn-item:not(:first-child) {
+        margin-left: 0;
+    }
+
     .dwnl-btn-item {
-        min-width: 70px;
+        margin: 0;
+        margin-bottom: 20px;
+        width: 200px;
     }
 }
