@@ -55,5 +55,5 @@ headerNavList.className = 'header_list';
 nav.appendChild(headerNavList);
 
 addHeaderLink('Главная', '/');
+addHeaderLink('Скачать', './download.html');
 addHeaderLink('Демонлист', './dl.html');
-addHeaderLink('Контакты', './contacts.html');
