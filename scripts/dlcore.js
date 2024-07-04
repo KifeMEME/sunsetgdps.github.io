@@ -32,7 +32,7 @@ class DLCore {
         });
     }
 
-    addDemon(name, author, id, link) {
+    addDemon(name, author, id, link, points) {
         const list = document.getElementById('dl');
         const item = document.createElement('li');
         item.className = 'dl-item';
@@ -58,6 +58,16 @@ class DLCore {
         const pTextNode = document.createTextNode(pText);
         p.appendChild(pTextNode);
         div.appendChild(p);
+
+        const pointsBlock = document.createElement('div');
+        pointsBlock.className = 'dl-points';
+        item.appendChild(pointsBlock);
+
+        const pointsBlockText = document.createElement('p');
+        const pointsBlockTextt = 'points: ' + points;
+        const pointsBlockTextNode = document.createTextNode(pointsBlockTextt);
+        pointsBlockText.appendChild(pointsBlockTextNode);
+        pointsBlock.appendChild(pointsBlockText);
 
         this.dli++;
     }
