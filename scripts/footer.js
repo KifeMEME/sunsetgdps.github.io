@@ -42,7 +42,7 @@ const lb2h3TextNode = document.createTextNode(lb2h3Text);
 lb2h3.appendChild(lb2h3TextNode);
 linksblock2.appendChild(lb2h3);
 
-addFooterLink('О нас', '/', linksblock2);
+addFooterLink('О нас', './contacts.html', linksblock2);
 addFooterLink('Ютуб', 'https://www.youtube.com/@SunSetGDPS', linksblock2);
 
 const copyright = document.createElement('div');
