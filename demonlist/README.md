@@ -7,7 +7,7 @@
 
 **Пример:** 
 ```
-Levelname Username 12 https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be
+Levelname Username 12 https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be 200
 ```
 
 ### Добавление игрока в топ
