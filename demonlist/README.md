@@ -7,3 +7,19 @@
 ```
 Levelname Username 12 https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be
 ```
+
+### Добавление игрока в топ
+1. Откройте файл users.txt (каталога demonlist)
+2. Добавьте новую строку, в которой будет ник игрока и точка с запятой (username;)
+3. Откройте файл records.txt (каталога demonlist)
+4. Добавьте в файл новую строку: ник, лвлнейм, ссылка-на-рекорд, количество-очков-за-уровень
+5. Вместо пробелов в названии уровня ставьте знак дефиса (-)
+**Пример 1:**
+```
+username;
+```
+
+**Пример 2:**
+```
+username lvlname https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be 500
+```
