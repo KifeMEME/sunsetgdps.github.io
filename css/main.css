@@ -166,24 +166,23 @@ header:before {
 
 .home-transition {
     position: relative;
-    padding-top: 200px;
     margin-bottom: 60px;
 }
 
 .transition1 {
-    position: absolute;
-    top: 0;
+    position: relative;
+    top: 60px;
     left: 0;
     width: 100%;
-    min-height: 500px;
+    height: 300px;
 }
 
 .home-transition-content {
     position: relative;
+    margin-top: 70px;
     background-color: #1a171c;
     z-index: 5;
     text-align: center;
-    margin-top: 70px;
 }
 
 .wwh-list {
@@ -331,12 +330,14 @@ footer {
     position: fixed;
     top: 0;
     left: 0;
-    min-width: 100%;
+    height: 100%;
+    width: 100%;
     filter: blur(5px);
     z-index: -1;
 }
 
 .fixed-bg img {
+    height: 100%;
     width: 100%;
 }
 
