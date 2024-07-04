@@ -5,5 +5,5 @@
 3. Вместо пробелов в названии уровня ставьте знак дефиса (-)
 **Пример:** 
 ```js
-Emerald MOON 76 https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be
+Levelname Username 12 https://www.youtube.com/watch?v=CNr2UfF_X0E&feature=youtu.be
 ```
